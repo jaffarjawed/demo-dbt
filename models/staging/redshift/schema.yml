@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: redshift
+    description: 'SAMPLE DATA OF ECOMM'
+    database: dev
+    schema: PUBLIC
+    tables:
+      - name: ecomm
+        description: 'jaffar'
